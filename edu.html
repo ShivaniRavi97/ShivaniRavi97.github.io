@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>work</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="edu.css">
+    <link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div id="overlay" onclick="off()">
+  <div id="text">
+    <br><br>
+      <strong>Carmel School</strong> <br>
+      10th ICSE : 90%<br><br>
+
+
+      <strong>PU College</strong><br>
+      Stream :Science<br>
+      Optional Subject: Computer Science<br>
+      2nd PU:89%<br><br>
+
+  
+      <strong>Engineering College (Pursuing)</strong><br>
+      SGPA : 8.6
+
+
+
+  </div>
+</div>
+
+<div class="head">
+  <h2><strong>Education</strong></h2> <br><br>
+
+  <button onclick="on()">KNOW MORE</button>
+
+<br>
+<br>
+   <form method="get" action="index.html">
+    <button type="submit">BACK</button>
+</form>
+     <form method="get" action="skills.html">
+    <button type="submit">NEXT</button>
+</form>
+
+</div>
+
+<script>
+function on() {
+    document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+    document.getElementById("overlay").style.display = "none";
+}
+
+</script>
+     
+</body>
+</html> 

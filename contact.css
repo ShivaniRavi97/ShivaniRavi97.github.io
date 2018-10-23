@@ -1,0 +1,26 @@
+body{
+	background-image: url(contact.jpg);
+	background-repeat: no-repeat;
+	background-size: 1400px 750px;
+}
+.banner {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: row;
+			
+			}
+
+	a {
+				color:#182C61;
+			}
+h1{
+	color:#182C61;
+	font-size: 70px;
+	text-align: center;
+	font-family: 'Gentium Book Basic', serif;
+}
+.head{
+    text-align: center;
+    padding:20px;
+    font-family: 'Gentium Book Basic', serif;

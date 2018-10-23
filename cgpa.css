@@ -1,0 +1,30 @@
+body{
+    /* The image used */
+   /* background-image:M1.jpg;
+
+     Full height 
+    height: 100%;*/
+    background-image: url("w.jpg");
+    background-size: 500px 500px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arbutus Slab', serif;
+}
+
+h1{
+	text-align: center;
+}
+
+p{
+	text-align: left;
+}
+
+.container{
+	padding-top: 100px;
+	padding-left: 100px;
+  size: 50px 50px;
+
+}
